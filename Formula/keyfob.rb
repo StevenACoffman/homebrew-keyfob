@@ -2,14 +2,14 @@
 class Keyfob < Formula
   desc "keyfob - a two-factor authentication agent suitable for AWS and Github"
   homepage "https://github.com/StevenACoffman/keyfob"
-  version "0.3.0"
+  version "0.4.0"
 
   if OS.mac?
-    url "https://github.com/StevenACoffman/keyfob/releases/download/v0.3.0/keyfob_0.3.0_Darwin_x86_64.tar.gz"
-    sha256 "ee4451c02f590bbc21a0e1e4143cbea98f41821bf6c28366bb86af322aa4e968"
+    url "https://github.com/StevenACoffman/keyfob/releases/download/v0.4.0/keyfob_0.4.0_Darwin_x86_64.tar.gz"
+    sha256 "37a7c47d34580eab8a96d1795ec47c45b6176a1884c3145e61daf49c3d0ee2a4"
   elsif OS.linux?
-    url "https://github.com/StevenACoffman/keyfob/releases/download/v0.3.0/keyfob_0.3.0_Linux_x86_64.tar.gz"
-    sha256 "a40e2134be8f471a81c3053dc2cec2ca14585685ed8932c5eff2c408f9e6adaa"
+    url "https://github.com/StevenACoffman/keyfob/releases/download/v0.4.0/keyfob_0.4.0_Linux_x86_64.tar.gz"
+    sha256 "8797930aed51f2818820b4d84da0d22d6862e38354e497d13c4a086faa7a144a"
   end
 
   def install
